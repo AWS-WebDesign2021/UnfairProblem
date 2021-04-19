@@ -1,17 +1,28 @@
 body{
 	background-color: #542680;
 }
-h1 {
+.p1 {
 	font-family: Serif;
 	position: relative;
- 	left: 10px;
- 	top: 30px;
+ 	left: 110px;
+ 	top: -10px;
+	color: black;
+	font-size: 50px;
+	padding-top: none;
+	padding-bottom: none;
 }
 
 p {
 	font-family: Serif;
 	position: relative;
 	left: 10px;
+	top: 0px;
+	left: 2px;
+}
+
+.footer {
+	font-family: Courier New;
+	color: black;
 }
 .navbar {
 	overflow: hidden;
@@ -37,7 +48,7 @@ p {
 	font-size: 16px;
 	border: none;
 	outline: none;
-	color: #8c8494;
+	color: white;
 	padding: 14px 16px;
 	background-color: inherit;
 	font-family: inherit;
@@ -60,7 +71,7 @@ p {
 
 .dropdown-content a {
 	float: none;
-	color: #8c8494;
+	color: white;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
@@ -121,3 +132,68 @@ p {
 .dropdown:hover .dropdown-content2 {
 	display: block;
 }
+
+.rcorners {
+	border-radius: 25px;
+	background: #8c8494;
+	padding: 10px;
+  width: 908px;
+	height: 165px;
+	float: left;
+	right: 300px;
+	}
+
+.rcorners1 {
+	border-radius: 25px;
+	background: #8c8494;
+	left: 5px;
+	padding: 10px;
+  width: 880px;
+	height: 450px;
+	float: left;
+	}
+
+.rcorners2 {
+	border-radius: 25px;
+	background: #8c8494;
+	left: 5px;
+	padding: 10px;
+  width: 905px;
+	height: 400px;
+	float: left;
+	}
+
+.incognitoman {
+	position: relative;
+	right: 10px;
+	top: 70px;
+}
+
+.flip {
+	position: relative;
+	right: -5px;
+	top: -140px;
+	float: right;
+}
+
+.container: hover .overlay{
+	opacity: 1;
+}
+
+.profileman {
+	position: relative;
+	right: -45px;
+	top: -50px;
+	float: right;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.incognitoman:hover .profileman {
+	transform: rotateY(180deg);
+}
+
+.vid1 {
+	font-family: Courier New;
+	color: white;

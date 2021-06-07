@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../PortfolioStylesheet.css">
+    <title>Computer Science Portfolio</title>
+  </head>
+  <body>
+    <div class="body1">
+      <!--Navbar-->
+      <div class="p1"><b>Portfolio</b>
+        <div class="p2"><i>Sofia La Rosa</i></div>
+      </div>
+      <div class="topnav">
+        <ul>
+          <li><a class"active" href="../PortfolioMainPage.html">Home</a></li>
+          <li><a href="../About Me/AboutMe2.html">About Me</a></li>
+          <li><a href="../Environmental Call to Action/EnvironmentalCalltoAction2.html">Environmental Call To Action</a></li>
+          <li><a href="../Collector's Guide/Collector'sGuide2.html">Collector's Guide</a></li>
+          <li><a href="../Guide to the PNW/GuidetothePNW2.html">Guide to the PNW</a></li>
+          <li><a href="../Social and Ethical Issues of Technology/SocialandEthicalIssues2.html">Social and Ethical Issues</a></li>
+          <li><a href="../Buzzfeed Quiz/BuzzfeedQuiz2.html">Buzzfeed Quiz</a></li>
+        </ul>
+      </div>
+    </div>
+  <div class="body14">
+  <div class="month">May 13th, 2021</div>
+  <div class="embedPage6">
+    <style>
+    /*Color of Page*/
+    .body12 {
+      background-color: red;
+      height: 2500px;
+      padding: 20px;
+    }
+
+    /*For the Bouncing Arrow*/
+    .arrow {
+      position: relative;
+      left: 5px;
+      top: 10px;
+    }
+
+    .arrow:hover {
+      animation-name: arrow;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      cursor: pointer;
+      position: relative;
+      align: left;
+      left: 5px;
+      top: -50px;
+    }
+
+    @keyframes arrow {
+      0% {top: 5px;}
+      20% {top: 0px;}
+      40% {top: 5px;}
+      60% {top: 0px;}
+      80% {top: 5px;}
+      100% {top: 5px;}
+    }
+
+    /*Navbar*/
+    .tonav1 {
+      background-color: #black;
+      font-family: Times;
+      overflow: hidden;
+    }
+
+    .topnav1 a {
+      float: left;
+      color: blue;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-family: Times;
+      font-size: 16px;
+    }
+
+    .topnav1 a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      position: sticky;
+      top: 0;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a{
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover{
+      background-color: #111;
+    }
+
+    .active {
+      background-color: red;
+    }
+
+    /*Quiz Style*/
+    .h3 {
+      font-family: Times;
+      font-size: 50px;
+      position: relative;
+      float: left;
+      left: 20px;
+    }
+
+    .h2 {
+      font-family: Times;
+      font-size: 15px;
+      position: relative;
+      float: left;
+      left: 20px;
+    }
+
+    .quizStyle {
+      font-family: Times;
+      font-size: 20px;
+      position: relative;
+      float: left;
+      left: 20px;
+    }
+
+    /*For the "add" at the top*/
+    .button3 {
+      width: 300px;
+      height: 100px;
+      background-color: red;
+      font-size: 20px;
+      font-family: Times;
+      padding: 10px;
+      animation-name: color;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      position: relative;
+      float: right;
+      cursor: pointer;
+
+    }
+
+    @keyframes color {
+      0% {background-color: red; left:0px; top: 0px;}
+      25% {background-color: yellow; left: -200px; top: 0px;}
+      50% {background-color: orange; left:0px; top: 0px;}
+      100% {background-color: red; left: 0; top: 0px;}
+    }
+
+    /*For the Results at the bottom of the page*/
+    .results {
+      font-family: Times;
+      font-size: 15px;
+      position: relative;
+      float: left;
+      left: 20px;
+      display: none;
+      transition: width 2s, height 4s;
+    }
+
+    .results:hover {
+      width: 300px;
+      height: 300px;
+    }
+
+    </style>
+    <div class="arrow">
+      <img src="Arrow.png" width="100" height="100">
+      <div class="button3">
+        <br>
+        <a href="https://www.buzzfeed.com/quizzes" target="_blank">Want more quizzes? Click here!</a>
+      </div>
+        <img src="Header.jpg" width="200" height="100">
+      </div>
+    <br>
+  <br>
+  <div class="navbar1">
+    <ul>
+      <!--Navbar-->
+      <li><a class="active" href="./BuzzfeedQuiz.html">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="./BuzzfeedQuizSources.html">Sources</a></li>
+    </ul>
+  <br>
+<!--Title and small intro to the quiz-->
+<div class="body12">
+  <form class="quiz" action="index.html" method="post">
+  <div class="h3">Build an ice cream and we'll tell you what your favorite season is!</div>
+  <div class="h2">Alright kiddo, listen up. Welcome to the Buzzfeed Quiz!
+    You're about to sell your data to an all mighty fortune teller
+    (We'll call him Jim). Jim is going to predict your future through a series of questions.
+    This quiz is COMPLETELY AND EXTREMELY reliable. So, don't worry, your information will not be used against you;)
+    Now, let's get on with it! To the quiz!</div>
+<!--Quiz Starts Here-->
+  <div class="quizStyle">
+  <br>
+
+  <!--Question Number 1-->
+  <label for="Question1"><b><p><i>Question 1: Pick a Cone!</i></p></b></label>
+
+    <label for="Question1"><img src="Images/Cone/Cup.jpg" width="160" height="200">Cup</label>
+    <input id="Cup" type="radio" name="Question1">
+
+    <label for="Question1"><img src="Images/Cone/DippedCone.jpg" width="250" height="200">Dipped Cone</label>
+    <input id="DippedCone" type="radio" name="Question1">
+
+    <label for="Question1"><img src="Images/Cone/download.jpg" width="150" height="200">Chocolate</label>
+    <input id="ChocolateCone" type="radio" name="Question1">
+
+    <label for="Question1"><img src="Images/Cone/SugarCone.jpg" width="200" height="150">Sugar Cone</label>
+    <input id="SugarCone" type="radio" name="Question1">
+
+    <label for="Question1"><img src="Images/Cone/Waffle.jpg" width="200" height="150">Waffle</label>
+    <input id="SugarCone" type="radio" name="Question1">
+    <br>
+    <br>
+    <br>
+
+  <!--Question Number 2-->
+  <label for="Question2"><b><p><i>Question 2: Pick a Flavor!</i></p></b></label>
+
+    <label for="Question2"><img src="Images/Flavors/Chocolate.png" width="260" height="200">Chocolate</label>
+    <input id="Chocolate" type="radio" name="Question1">
+
+    <label for="Question2"><img src="Images/Flavors/Strawberry.jpg" width="150" height="200">Strawberry</label>
+    <input id="Strawberry" type="radio" name="Question1">
+
+    <label for="Question2"><img src="Images/Flavors/Mint.jpg" width="150" height="200">Mint</label>
+    <input id="Mint" type="radio" name="Question1">
+
+    <label for="Question2"><img src="Images/Flavors/Caramel.jpg" width="200" height="150">Caramel</label>
+    <input id="Caramel" type="radio" name="Question1">
+    <br>
+    <br>
+    <br>
+
+  <!--Question Number 3-->
+  <label for="Question3"><b><p><i>Question 3: Pick another Flavor!</i></p></b></label>
+
+    <label for="Question3"><img src="Images/Flavors/Coffee.jpg" width="180" height="200">Coffee</label>
+    <input id="Chocolate" type="radio" name="Question1">
+
+    <label for="Question3"><img src="Images/Flavors/Orange.jpg" width="150" height="200">Oranges</label>
+    <input id="Strawberry" type="radio" name="Question1">
+
+    <label for="Question3"><img src="Images/Flavors/Vanilla.jpg" width="150" height="200">Vanilla</label>
+    <input id="Mint" type="radio" name="Question1">
+
+    <label for="Question3"><img src="Images/Flavors/Rasberry.jpg" width="200" height="250">Rasberry</label>
+    <input id="Caramel" type="radio" name="Question1">
+    <br>
+    <br>
+    <br>
+
+  <!--Question Number 4-->
+  <label for="Question4"><b><p><i>Question 4: How many scoops?</i></p></b></label>
+
+    <label for="Question4"><img src="Images/Scoops/one.jpg" width="150" height="250">One</label>
+    <input id="One" type="radio" name="Question3">
+
+    <label for="Question4"><img src="Images/Scoops/two.jpg" width="150" height="200">Two</label>
+    <input id="Two" type="radio" name="Question3">
+
+    <label for="Question4"><img src="Images/Scoops/three.jpg" width="150" height="200">Three</label>
+    <input id="Three" type="radio" name="Question3">
+
+    <label for="Question4"><img src="Images/Scoops/four.jpg" width="150" height="250">Four</label>
+    <input id="Four" type="radio" name="Question3">
+
+    <br>
+    <br>
+    <br>
+
+  <!--Question Number 5-->
+  <label for="Question5"><b><p><i>Question 5: Pick some toppings!</i></p></b></label>
+
+    <label for="Question5"><img src="Images/Toppings/GummyBears.jpg" width="300" height="200">Gummy Bears</label>
+    <input id="GummyBears" type="radio" name="Question2">
+
+    <label for="Question5"><img src="Images/Toppings/Sprinkles.jpg" width="250" height="200">Sprinkles</label>
+    <input id="Sprinkles" type="radio" name="Question2">
+
+    <label for="Question5"><img src="Images/Toppings/Syrup.jpg" width="200" height="200">Syrup</label>
+    <input id="Syrup" type="radio" name="Question2">
+
+    <br>
+    <br>
+<!--Submit button-->
+    <input type="button" value="Submit" onclick="showInput();">
+  </div>
+  <div class="results" id="results">
+  <br>
+  <br>
+  <br>
+    <div class="h3">Your favorite season is:</div><span id="results"></span></div>
+
+<!--Javascript starts here-->
+  <script type="text/javascript">
+   function showInput() {
+     var r = document.getElementByID('results');
+     r.style.display = "block";
+
+/*Javascript for Calculations of Question 1*/
+     var score = 0;
+     if (document.getElementByID("Cup").checked)
+     {
+       score = score +1;
+     }
+
+     if (document.getElementByID("DippedCone").checked)
+     {
+       score = score +2;
+     }
+
+     if (document.getElementByID("ChocolateCone").checked)
+     {
+       score = score +3;
+     }
+
+     if (document.getElementByID("SugarCone").checked)
+     {
+       score = score +4;
+     }
+
+     if (document.getElementByID("Waffle").checked)
+     {
+       score = score +5;
+     }
+
+/*Javascript for Calculations of Question 2*/
+     if (document.getElementByID("Chocolate").checked)
+     {
+       score = score +1;
+     }
+
+     if (document.getElementByID("Strawberry").checked)
+     {
+       score = score +2;
+     }
+
+     if (document.getElementByID("Mint").checked)
+     {
+       score = score +3;
+     }
+
+     if (document.getElementByID("Caramel").checked)
+     {
+       score = score +4;
+     }
+
+/*Javascript for Calculations of Question 3*/
+     if (document.getElementByID("Coffee").checked)
+     {
+       score = score +5;
+     }
+
+     if (document.getElementByID("Orange").checked)
+     {
+       score = score +1;
+     }
+
+     if (document.getElementByID("Vanilla").checked)
+     {
+       score = score +2;
+     }
+
+     if (document.getElementByID("Rasberry").checked)
+     {
+       score = score +3;
+     }
+
+/*Javascript for Calculations of Question 4*/
+     if (document.getElementByID("One").checked)
+     {
+       score = score +1;
+     }
+
+     if (document.getElementByID("Two").checked)
+     {
+       score = score +2;
+     }
+
+     if (document.getElementByID("Three").checked)
+     {
+       score = score +3;
+     }
+
+     if (document.getElementByID("Four").checked)
+     {
+       score = score +4;
+     }
+
+
+/*Javascript for Calculations of Question 5*/
+     if (document.getElementByID("GummyBears").checked)
+     {
+       score = score +1;
+     }
+
+     if (document.getElementByID("Sprinkles").checked)
+     {
+       score = score +2;
+     }
+
+     if (document.getElementByID("Syrup").checked)
+     {
+       score = score +3;
+     }
+
+/*Javascript for final Results*/
+     if (score <8) {
+       document.getElementByID('style').innerHTML = "Winter"
+       document.getElementByID('seasons').src= "Winter.jpg";
+     }
+
+     else if (score <=14) {
+       document.getElementByID('style').innerHTML = "Fall"
+       document.getElementByID('seasons').src= "Fall.jpg";
+     }
+
+     else if (score <=28) {
+       document.getElementByID('style').innerHTML = "Summer"
+       document.getElementByID('seasons').src= "Summer.jpg";
+     }
+
+     else (score <=25) {
+       document.getElementByID('style').innerHTML = "Spring"
+       document.getElementByID('seasons').src= "Spring.jpg";
+     }
+   }
+
+</script>
+<a href="../Social and Ethical Issues of Technology/SocialandEthicalIssues2.html"><button class="button2"><span>Previous</span></button>
+</body>
+</html>

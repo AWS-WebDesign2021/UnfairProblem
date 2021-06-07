@@ -1,0 +1,223 @@
+body{
+	background-color: #542680;
+}
+.p1 {
+	font-family: Serif;
+	position: relative;
+ 	left: 110px;
+ 	top: -10px;
+	color: black;
+	font-size: 50px;
+	padding-top: none;
+	padding-bottom: none;
+}
+
+.p1 {
+	animation: bounce 2s;
+}
+
+@keyframes bounce {
+	0% {
+		transform: scale(0.0);
+		opacity: 0;}
+	50% {
+		transform: scale(1.2);
+		opacity:0;}
+	100% {
+		transform: scale(1);}
+}
+
+p {
+	font-family: Serif;
+	position: relative;
+	left: 10px;
+	top: 0px;
+	left: 2px;
+}
+
+.footer {
+	font-family: Serif;
+	position: relative;
+	text-align: center;
+	top: 30px;
+	color: black;
+}
+.navbar {
+	overflow: hidden;
+	background-color: #8c8494;
+	font-family: Serif;
+}
+
+.navbar a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+ .dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: black;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: black;
+	position: absolute;
+	min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 4;
+}
+
+.dropdown-content a {
+	float: none;
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background color: #8c8494;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.rcorners {
+	border: 5px inset #8c8494;
+	background: #8c8494;
+	padding: 10px;
+  width: 820px;
+	height: 165px;
+	float: left;
+	right: 300px;
+	}
+
+.rcorners {
+	animation: bounce 2s;
+}
+
+@keyframes bounce {
+	0% {
+		transform: scale(0.0);
+		opacity: 0;}
+	50% {
+		transform: scale(1.2);
+		opacity:0;}
+	100% {
+		transform: scale(1);}
+}
+
+.rcorners1 {
+	order: 5px inset #8c8494;
+	background: #8c8494;
+	padding: 10px;
+  width: 810px;
+	height: 450px;
+	float: left;
+	}
+
+.rcorners1 {
+	transition: 2s;
+}
+
+.rcorners1: hover {
+	border: 5px outset black;
+}
+
+.rcorners2 {
+	order: 5px inset #8c8494;
+	background: #8c8494;
+	padding: 10px;
+  width: 905px;
+	height: 350;
+	float: left;
+	}
+
+.rcorners2 {
+	transition: 2s;
+}
+
+.rcorners2: hover {
+	border: 5px outset black;
+}
+
+.rcorners3 {
+	order: 5px inset #8c8494;
+	background: #8c8494;
+	padding: 10px;
+	width: 905px;
+	height: 470px;
+	float: left;
+}
+
+.rcorners3 {
+	transition: 2s;
+}
+
+.rcorners3: hover {
+	border: 5px outset black;
+}
+
+.rcorners4 {
+	order: 5px inset #8c8494;
+	background: #8c8494;
+	padding: 10px;
+	width: 905px;
+	height: 220px;
+	float: left;
+}
+
+.rcorners4 {
+	transition: 2s;
+}
+
+.rcorners4: hover {
+	border: 5px outset black;
+}
+
+.incognitoman {
+	position: relative;
+	right: 10px;
+	top: 70px;
+}
+
+.incognitoman {
+	animation: bounce 2s;
+}
+
+@keyframes bounce {
+	0% {
+		transform: scale(0.0);
+		opacity: 0;}
+	50% {
+		transform: scale(1.2);
+		opacity:0;}
+	100% {
+		transform: scale(1);}
+}
+
+.vid1 {
+	font-family: Courier New;
+	color: white;

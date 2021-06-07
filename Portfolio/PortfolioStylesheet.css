@@ -1,0 +1,510 @@
+.body1 {
+  background-color: #fcf8ec;
+  height: -800px;
+}
+
+/*Top Lettering*/
+.p1 {
+  font-family: Times;
+  font-size: 15vw;
+  color: #79a3b1;
+  padding: none;
+  text-align: left;
+  float: inherit;
+  position: relative;
+  top: 75px;
+  left: 5px;
+  text-shadow: 4px 4px #456268;
+}
+
+.p2 {
+  font-family: Times;
+  font-size: 2vw;
+  color: #456268;
+  padding: none;
+  text-align: center;
+  float: inherit;
+  position: relative;
+  top: -75px;
+  right: -180px;
+  text-shadow: 2px 2px white;
+}
+
+/*Embeds About Me into Page*/
+.embedPage {
+  top: 150px;
+  width: 900px;
+  right: -240px;
+  border-style: double;
+  position: relative;
+  float: inherit;
+}
+
+/*Embeds Environmental Call to Action into Page*/
+.embedPage1 {
+  top: 150px;
+  width: 1200px;
+  right: -100px;
+  height: 2450px;
+  border-style: double;
+  position: relative;
+  float: inherit;
+  background-color: inherit;
+}
+
+/*Embeds Collector's Guide into Page*/
+.embedPage2 {
+  top: 150px;
+  width: 1200px;
+  right: -100px;
+  height: 1950px;
+  border-style: double;
+  position: relative;
+  float: inherit;
+  background-color: inherit;
+}
+
+/*Embeds Guide to the PNW into Page*/
+.embedPage5 {
+  top: 150px;
+  width: 1200px;
+  right: -100px;
+  height: 1600px;
+  border-style: double;
+  position: relative;
+  float: inherit;
+  background-color: inherit;
+}
+
+/*Embeds Social and Ethical Issues into Page*/
+.embedPage4 {
+  top: 150px;
+  width: 1200px;
+  right: -100px;
+  height: 1100px;
+  border-style: double;
+  position: relative;
+  float: inherit;
+  background-color: inherit;
+}
+
+/*Embeds Buzzfeed Quiz into Page*/
+.embedPage6 {
+  top: 150px;
+  width: 1200px;
+  right: -100px;
+  height: 2745px;
+  border-style: double;
+  position: relative;
+  float: inherit;
+  background-color: inherit;
+}
+
+/*Navbar*/
+.topnav {
+  background-color: #d0e8f2;
+  font-family: Times;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #79a3b1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Times;
+  font-size: -100vw;
+}
+
+.topnav a:hover {
+  background-color: #cae1eb;
+  color: #79a3b1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d0e8f2;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a.active {
+  background-color: #d0e8f2;
+}
+
+li a {
+  display: block;
+  color: #79a3b1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #79a3b1;
+}
+
+/*Underneath the Navbar for the Home page and About Me*/
+.body2 {
+  background-color: #456268;
+  height: 800px;
+}
+
+/*Underneath the Navbar for the Home page and About Me*/
+.body3 {
+  background-color: #456268;
+  height: 2500px;
+}
+
+/*Underneath the Navbar for Environmental Call to Action*/
+.body8 {
+  background-color: #456268;
+  height: 2800px;
+}
+
+/*Underneath the Navbar for Collector's Guide*/
+.body7 {
+  background-color: #456268;
+  height: 2200px;
+}
+
+.body9 {
+  background-color: #456268;
+  height: 1500px;
+}
+
+.body11 {
+  background-color: #456268;
+  height: 2000px;
+}
+
+/*Underneath the Navbar for Buzzfeed Quiz*/
+.body14 {
+  background-color: #456268;
+  height: 3200px;
+}
+
+/*Lettering underneath Navbar*/
+.month {
+  font-family: Times;
+  font-size: 100px;
+  color: beige;
+  text-align: left;
+  float: inherit;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  animation-name: month;
+  animation-duration: 3s;
+}
+
+@keyframes month{
+  0% {top: 100px;}
+  50% {top: 0px;}
+  100% {top: 100px;}
+}
+
+/*Timeline Lettering*/
+.timeline {
+  font-family: Times;
+  font-size: 100px;
+  color: beige;
+  text-align: center;
+  right: 400px;
+  float: inherit;
+  position: relative;
+  top: 100px;
+  animation-name: TimeLine;
+  animation-duration: 3s;
+}
+
+.arrowhead {
+  width: 0px;
+  height: 0px;
+  float: inherit;
+  position: relative;
+  right: -900px;
+  top: -60px;
+  background-color: beige;
+  animation-name: arrowhead;
+  animation-duration: 3s;
+}
+
+.arrowbody {
+  width: 750px;
+  height: 20px;
+  background-color: beige;
+  float: inherit;
+  position: relative;
+  right: -900px;
+  top: -60px;
+  animation-name: arrowbody;
+  animation-duration: 3s;
+}
+
+@keyframes arrowbody {
+  0% {right: -900px; width: 0px;}
+  100% {right: -900px; width: 750px}
+}
+
+@keyframes arrowhead {
+  0% {right: -900px; width: 0px;}
+  100% {right: -900px; width: 0px;}
+}
+
+@keyframes TimeLine {
+  0% {right: 0px;}
+  100% {right: 400px;}
+}
+
+/*Image Gallery*/
+div.gallery {
+  margin: 5px;
+  border: 1px solid beige;
+  position: relative;
+  float: left;
+  right: -150px;
+  top: 150px;
+  width: 180px;
+  background-color: #79a3b1;
+}
+
+div.gallery:hover {
+  border: 1px solid black;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-family: times;
+  font-size: 20px;
+}
+
+/*'View Gallery' button at the bottom of the page*/
+.button {
+  border-radius: 4px;
+  background-color: #79a3b1;
+  border: none;
+  color: #d0e8f2;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  position: relative;
+  top: 500px;
+  width: 180px;
+  right: 510px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*'Previous' button at the bottom of the page*/
+.button2 {
+  border-radius: 4px;
+  background-color: #79a3b1;
+  border: none;
+  color: #d0e8f2;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  position: relative;
+  top: -75px;
+  width: 165px;
+  right: -540px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00ab';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-left: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
+/*'Next' button at the bottom of the page*/
+.button3 {
+  border-radius: 4px;
+  background-color: #79a3b1;
+  border: none;
+  color: #d0e8f2;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  position: relative;
+  top: -75px;
+  width: 165px;
+  right: -540px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button3 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button3 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button3:hover span {
+  padding-right: 25px;
+}
+
+.button3:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*'Previous' button at the bottom of Environmental*/
+.button4 {
+  border-radius: 4px;
+  background-color: #79a3b1;
+  border: none;
+  color: #d0e8f2;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  position: relative;
+  top: 100px;
+  width: 165px;
+  right: -420px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button4 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button4 span:after {
+  content: '\00ab';
+  position: absolute;
+  opacity: 0;
+  top: -14.5px;
+  left: -20px;
+  transition: 0.5s;
+}
+
+.button4:hover span {
+  padding-left: 25px;
+}
+
+.button4:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
+/*'Next' button at the bottom of Environmental*/
+.button5 {
+  border-radius: 4px;
+  background-color: #79a3b1;
+  border: none;
+  color: #d0e8f2;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  position: relative;
+  top: 100px;
+  width: 165px;
+  right: -420px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button5 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button5 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: -14.5px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button5:hover span {
+  padding-right: 25px;
+}
+
+.button5:hover span:after {
+  opacity: 1;
+  right: 0;
+}
